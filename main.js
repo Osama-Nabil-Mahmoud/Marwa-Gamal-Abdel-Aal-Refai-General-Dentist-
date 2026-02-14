@@ -37,10 +37,10 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
             navbar.style.boxShadow = '0 10px 30px rgba(0,0,0,0.5)';
-            navbar.style.padding = '0.5rem 0';
+            navbar.style.background = 'rgba(10, 10, 11, 0.95)';
         } else {
             navbar.style.boxShadow = 'none';
-            navbar.style.padding = '0';
+            navbar.style.background = 'rgba(10, 10, 11, 0.8)';
         }
     });
 

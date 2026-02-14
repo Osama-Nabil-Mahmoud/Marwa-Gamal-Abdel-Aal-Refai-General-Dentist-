@@ -52,7 +52,7 @@ body {
 
 /* Typography */
 .h1 { font-size: 3rem; font-weight: 700; line-height: 1.2; }
-.h2 { font-size: 2.25rem; font-weight: 700; margin-bottom: 2rem; }
+.h2 { font-size: 2.25rem; font-weight: 700; margin-bottom: 1.5rem; }
 .h3 { font-size: 1.5rem; font-weight: 600; }
 .h4 { font-size: 1.25rem; font-weight: 600; }
 .text-accent { color: var(--accent); }
@@ -184,8 +184,7 @@ body {
 .section { padding: 5rem 0; }
 .hero { padding: 10rem 0 5rem; text-align: left; }
 
-.hero h1 { margin-bottom: 1.5rem; max-width: 900px; }
-.hero .summary { font-size: 1.25rem; color: var(--text-secondary); margin-bottom: 2.5rem; max-width: 700px; }
+.hero .summary { font-size: 1.25rem; color: var(--text-secondary); margin: 1.5rem 0 2.5rem; max-width: 700px; }
 
 .badge {
     display: inline-block;
@@ -200,7 +199,7 @@ body {
     margin-bottom: 1.5rem;
 }
 
-.hero-btns { display: flex; gap: 1rem; margin-bottom: 3rem; }
+.hero-btns { display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 3rem; }
 
 .contact-chips { display: flex; flex-wrap: wrap; gap: 1rem; }
 .chip {
@@ -290,7 +289,7 @@ body {
 
 .contact-list { margin-top: 2rem; display: flex; flex-direction: column; gap: 1rem; }
 .contact-item { display: flex; align-items: center; gap: 1rem; color: var(--text-secondary); }
-.cta-actions { display: flex; flex-direction: column; gap: 1rem; justify-content: center; }
+.cta-actions { display: flex; flex-direction: column; gap: 1.5rem; justify-content: center; }
 .full-width { width: 100%; }
 
 /* Icons */
