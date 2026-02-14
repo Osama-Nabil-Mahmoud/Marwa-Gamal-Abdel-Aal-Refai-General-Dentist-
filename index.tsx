@@ -1,3 +1,2 @@
-// This file is part of the project structure but we are using index.html and main.js 
-// for a vanilla implementation to satisfy the "no frameworks" request.
-console.log('App initialized.');
+// Static Vanilla Version - index.tsx not required
+console.log('Vanilla Static Page Active');

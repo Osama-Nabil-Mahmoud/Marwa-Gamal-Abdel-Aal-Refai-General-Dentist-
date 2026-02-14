@@ -1,2 +1,2 @@
-// Vanilla implementation - see index.html and styles.css
+// Static Vanilla Version - App.tsx not required
 export default {};
